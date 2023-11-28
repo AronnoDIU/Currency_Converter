@@ -1,9 +1,9 @@
 import java.io.BufferedReader; // Read the response from the API as a stream
 import java.io.IOException; // Handle IO exceptions
 import java.io.InputStreamReader; // Read the response from the API as a stream
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.Scanner;
+import java.net.HttpURLConnection; // Open a connection to the API URL
+import java.net.URL; // Create a URL object from the API URL string above
+import java.util.Scanner; // Get user input
 
 public class CurrencyConverter {
     // Get your API key from https://www.exchangerate-api.com/
