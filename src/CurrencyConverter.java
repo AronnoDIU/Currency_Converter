@@ -99,8 +99,7 @@ public class CurrencyConverter {
         connection.setRequestMethod("GET"); // Set the request method to GET
 
         // Create a BufferedReader to read the response from the API and store it in a StringBuilder
-        BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-        return reader;
+        return new BufferedReader(new InputStreamReader(connection.getInputStream()));
     }
 
     // Get the exchange rate for the given currency code from the JSON response
