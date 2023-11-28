@@ -9,7 +9,7 @@ public class CurrencyConverter {
     // Get your API key from https://www.exchangerate-api.com/
     private static final String API_KEY = "a6c2dae643f3c8895d6e1fb4";
 
-    // API URL for getting latest exchange rates
+    // API URL for getting the latest exchange rates for USD as the base currency
     private static final String
             API_URL = "https://v6.exchangerate-api.com/v6/a6c2dae643f3c8895d6e1fb4/latest/USD";
 
