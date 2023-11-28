@@ -1,6 +1,6 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.BufferedReader; // Read the response from the API as a stream
+import java.io.IOException; // Handle IO exceptions
+import java.io.InputStreamReader; // Read the response from the API as a stream
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
