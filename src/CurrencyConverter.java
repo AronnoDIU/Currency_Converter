@@ -28,7 +28,7 @@ public class CurrencyConverter {
 
         System.out.println("Enter the amount to convert:");
         double amount = userInput.nextDouble();
-        // Get the amount to convert from the user
+        // Get the amount to convert from the user as a double value
 
         // Get the exchange rate for the given currencies and convert the amount
         double exchangeRate = getExchangeRate(sourceCurrency, targetCurrency);
